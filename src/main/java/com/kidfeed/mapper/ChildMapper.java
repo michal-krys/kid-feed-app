@@ -1,9 +1,9 @@
-package com.kidfeed.kid_feed_app.mapper;
+package com.kidfeed.mapper;
 
-import com.kidfeed.kid_feed_app.dto.request.ChildCreateRequest;
-import com.kidfeed.kid_feed_app.dto.request.ChildUpdateRequest;
-import com.kidfeed.kid_feed_app.dto.response.ChildResponse;
-import com.kidfeed.kid_feed_app.entity.Child;
+import com.kidfeed.dto.request.ChildCreateRequest;
+import com.kidfeed.dto.request.ChildUpdateRequest;
+import com.kidfeed.dto.response.ChildResponse;
+import com.kidfeed.entity.Child;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;

@@ -1,4 +1,4 @@
-package com.kidfeed.kid_feed_app.dto.request;
+package com.kidfeed.dto.request;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -12,7 +12,7 @@ import java.time.LocalDate;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class ChildCreateRequest {
+public class ChildUpdateRequest {
 
     private String name;
     private LocalDate birthDate;

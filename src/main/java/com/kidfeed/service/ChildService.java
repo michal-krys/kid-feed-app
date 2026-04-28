@@ -1,15 +1,15 @@
-package com.kidfeed.kid_feed_app.service;
+package com.kidfeed.service;
 
-import com.kidfeed.kid_feed_app.dto.request.ChildCreateRequest;
-import com.kidfeed.kid_feed_app.dto.request.ChildUpdateRequest;
-import com.kidfeed.kid_feed_app.dto.response.ChildResponse;
-import com.kidfeed.kid_feed_app.entity.Child;
-import com.kidfeed.kid_feed_app.entity.User;
-import com.kidfeed.kid_feed_app.exception.AccessDeniedException;
-import com.kidfeed.kid_feed_app.exception.ResourceNotFoundException;
-import com.kidfeed.kid_feed_app.mapper.ChildMapper;
-import com.kidfeed.kid_feed_app.repository.ChildRepository;
-import com.kidfeed.kid_feed_app.repository.UserRepository;
+import com.kidfeed.dto.request.ChildCreateRequest;
+import com.kidfeed.dto.request.ChildUpdateRequest;
+import com.kidfeed.dto.response.ChildResponse;
+import com.kidfeed.entity.Child;
+import com.kidfeed.entity.User;
+import com.kidfeed.exception.AccessDeniedException;
+import com.kidfeed.exception.ResourceNotFoundException;
+import com.kidfeed.mapper.ChildMapper;
+import com.kidfeed.repository.ChildRepository;
+import com.kidfeed.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

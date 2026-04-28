@@ -1,4 +1,4 @@
-package com.kidfeed.kid_feed_app.exception;
+package com.kidfeed.exception;
 
 public class DuplicateResourceException extends RuntimeException {
     public DuplicateResourceException(String message) {

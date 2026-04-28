@@ -1,20 +1,17 @@
-package com.kidfeed.kid_feed_app.dto.response;
+package com.kidfeed.dto.request;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 
-import java.time.LocalDateTime;
-
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserResponse {
+public class UserCreateRequest {
 
-    private Long id;
     private String email;
+    private String password;
     private String name;
-    private LocalDateTime createdAt;
 }

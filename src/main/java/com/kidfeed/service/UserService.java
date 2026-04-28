@@ -1,12 +1,12 @@
-package com.kidfeed.kid_feed_app.service;
+package com.kidfeed.service;
 
-import com.kidfeed.kid_feed_app.dto.request.UserCreateRequest;
-import com.kidfeed.kid_feed_app.dto.response.UserResponse;
-import com.kidfeed.kid_feed_app.entity.User;
-import com.kidfeed.kid_feed_app.exception.DuplicateResourceException;
-import com.kidfeed.kid_feed_app.exception.ResourceNotFoundException;
-import com.kidfeed.kid_feed_app.mapper.UserMapper;
-import com.kidfeed.kid_feed_app.repository.UserRepository;
+import com.kidfeed.dto.request.UserCreateRequest;
+import com.kidfeed.dto.response.UserResponse;
+import com.kidfeed.entity.User;
+import com.kidfeed.exception.DuplicateResourceException;
+import com.kidfeed.exception.ResourceNotFoundException;
+import com.kidfeed.mapper.UserMapper;
+import com.kidfeed.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

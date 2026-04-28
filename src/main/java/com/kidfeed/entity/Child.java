@@ -1,4 +1,4 @@
-package com.kidfeed.kid_feed_app.entity;
+package com.kidfeed.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

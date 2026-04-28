@@ -1,8 +1,8 @@
-package com.kidfeed.kid_feed_app.controller;
+package com.kidfeed.controller;
 
-import com.kidfeed.kid_feed_app.dto.request.UserCreateRequest;
-import com.kidfeed.kid_feed_app.dto.response.UserResponse;
-import com.kidfeed.kid_feed_app.service.UserService;
+import com.kidfeed.dto.request.UserCreateRequest;
+import com.kidfeed.dto.response.UserResponse;
+import com.kidfeed.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

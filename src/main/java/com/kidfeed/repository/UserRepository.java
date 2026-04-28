@@ -1,6 +1,6 @@
-package com.kidfeed.kid_feed_app.repository;
+package com.kidfeed.repository;
 
-import com.kidfeed.kid_feed_app.entity.User;
+import com.kidfeed.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

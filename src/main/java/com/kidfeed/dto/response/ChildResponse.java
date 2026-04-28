@@ -1,4 +1,4 @@
-package com.kidfeed.kid_feed_app.dto.response;
+package com.kidfeed.dto.response;
 
 import lombok.Getter;
 import lombok.Setter;

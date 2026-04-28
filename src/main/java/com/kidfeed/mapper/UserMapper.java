@@ -1,8 +1,8 @@
-package com.kidfeed.kid_feed_app.mapper;
+package com.kidfeed.mapper;
 
-import com.kidfeed.kid_feed_app.dto.request.UserCreateRequest;
-import com.kidfeed.kid_feed_app.dto.response.UserResponse;
-import com.kidfeed.kid_feed_app.entity.User;
+import com.kidfeed.dto.request.UserCreateRequest;
+import com.kidfeed.dto.response.UserResponse;
+import com.kidfeed.entity.User;
 import org.springframework.stereotype.Component;
 
 @Component
